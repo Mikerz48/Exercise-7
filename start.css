@@ -1,0 +1,80 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas: 
+    "greenbox greenbox greenbox greenbox greenbox greenbox"
+    "yellowbox yellowbox redbox redbox bluebox bluebox"
+    "yellowbox yellowbox redbox redbox bluebox bluebox"
+    "orangebox orangebox orangebox orangebox bluebox bluebox";
+}
+
+#green {
+    grid-area: greenbox;
+}
+
+#yellow {
+    grid-area: yellowbox;
+}
+
+#red {
+    grid-area: redbox;
+}
+
+#orange {
+    grid-area: orangebox;
+}
+
+#blue {
+    grid-area: bluebox;
+}
+
+.ul2 {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: repeat(2, 90px);
+    grid-template-areas: 
+    " a b"
+    " c d" ;
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.ul1 {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: repeat(2, 90px);
+    grid-template-areas: 
+    " one two"
+    " three four" ;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}
