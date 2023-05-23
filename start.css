@@ -1,7 +1,7 @@
 body {
     display: grid;
-    grid-template-columns: repeat(6, 200px);
-    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
     "greenbox greenbox greenbox greenbox greenbox greenbox"
     "yellowbox yellowbox redbox redbox bluebox bluebox"
@@ -31,8 +31,8 @@ body {
 
 .ul2 {
     display: grid;
-    grid-template-columns: repeat(2, 130px);
-    grid-template-rows: repeat(2, 90px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 91fr);
     grid-template-areas: 
     " a b"
     " c d" ;
@@ -56,8 +56,8 @@ body {
 
 .ul1 {
     display: grid;
-    grid-template-columns: repeat(2, 130px);
-    grid-template-rows: repeat(2, 90px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
     " one two"
     " three four" ;
